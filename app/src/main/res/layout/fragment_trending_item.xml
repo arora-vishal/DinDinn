@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="foodItem"
+            type="com.effort.dindinnapplication.home.data.FoodItem" />
+    </data>
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/image"
+        imageUrl="@{foodItem.image}"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</layout>
